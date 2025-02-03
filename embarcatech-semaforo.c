@@ -55,10 +55,10 @@ bool repeating_timer_callback(struct repeating_timer *t){
         printf("\nSinal vermelho! PARE!\n\n");
         estado_atual++;//atualiza o estado para 1
     }
-    else if(estado_atual==1){ //Sinal amarelo (azul)
-        gpio_put(led_vermelho,false);
-        gpio_put(led_azul,true);
-        gpio_put(led_verde,false);
+    else if(estado_atual==1){ //Sinal amarelo 
+        gpio_put(led_vermelho,true);
+        gpio_put(led_azul,false);
+        gpio_put(led_verde,true);
         printf("\nSinal amarelo! ESPERE!\n\n");
         estado_atual++;//atualiza o estado para 2
 
