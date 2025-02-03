@@ -5,6 +5,7 @@ O objetivo desse projeto é simular um semáforo, tanto pelo Wokwi quanto pelo R
 
 
 ## 2. Vídeo de demonstração
+https://www.dropbox.com/scl/fi/x7ulp6r6yrl1pv5y9brdq/WhatsApp-Video-2025-02-03-at-00.09.42.mp4?rlkey=isf5kmdalprl0bm2vmitapszl&st=mj87y2w8&dl=0
 
 
 ## 3. Funcionalidades
